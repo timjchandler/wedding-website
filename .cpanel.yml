@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/clouksjx/domiandtim.com/
+    # Stylesheets 
+    - /bin/cp -R style $DEPLOYPATH
+    # Pages
+    - /bin/cp wedding.html $DEPLOYPATH
+    # Images
+    - /bin/cp -R img $DEPLOYPATH
